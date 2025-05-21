@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-
+I learned more about APIs and javascript syntaxe structure
 
 ```javascript
 document.getElementById('btn').addEventListener('click', function(){
