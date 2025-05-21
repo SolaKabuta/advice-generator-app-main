@@ -15,17 +15,18 @@
     @theme {
       --color-clifford: #da373d;
       --color-background: hsl(218, 23%, 16%);
-      --color-main: hsl(217, 19%, 24%));
+      --color-main: #303a48;
       --color-title: hsl(150, 100%, 66%);
+        --font-display: "Manrope", sans-serif;
     }
   </style>
 </head>
-<body class="bg-background text-white">
+<body class="bg-background text-white font-extrabold text-[28px] font-display">
   <section class="grid place-content-center w-screen h-[95vh]">
-    <main class="bg-gray-600 p-10 text-center rounded-lg relative">
+    <main class="bg-main p-10 text-center rounded-lg relative">
         <!-- Advice ID goes here -->
-        <h1 id="advice-id" class="text-title py-5">Advice # </h1>
-        <div id="advice-container" class="py-5">
+        <h1 id="advice-id" class="text-title uppercase py-5">Advice # </h1>
+        <div id="advice-container" class="pt-5 pb-10">
           <ul>
         <!-- Advice text goes here -->
 

@@ -26,7 +26,7 @@ document.getElementById('btn').addEventListener('click', function(){
         // Et enfin on crée la balise "li" dans laquelle sera affiché l'advice
         let li = document.createElement('li');
         li.classList.add('list-none');
-        li.textContent = advice
+        li.textContent = `"${advice}"`
 
         adviceList.append(li);
 
