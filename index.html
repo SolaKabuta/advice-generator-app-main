@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <style type="text/tailwindcss">
+    @theme {
+      --color-clifford: #da373d;
+      --color-background: hsl(218, 23%, 16%);
+      --color-main: hsl(217, 19%, 24%));
+      --color-title: hsl(150, 100%, 66%);
+    }
+  </style>
+</head>
+<body class="bg-background text-white">
+  <section class="grid place-content-center w-screen h-[95vh]">
+    <main class="bg-gray-600 p-10 text-center rounded-lg relative">
+        <!-- Advice ID goes here -->
+        <h1 id="advice-id" class="text-title py-5">Advice # </h1>
+        <div id="advice-container" class="py-5">
+          <ul>
+        <!-- Advice text goes here -->
+
+          </ul>
+        </div>
+        <img src="images/pattern-divider-desktop.svg" alt="">
+        <div class="relative -bottom-18">
+          <button id="btn" class="bg-title p-5 rounded-full transition duration-300 hover:bg-cyan-500">
+            <img src="images/icon-dice.svg" alt="">
+          </button>
+        </div>
+
+    </main>
+  </section>
+  
+  <section>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Sola Kabuta</a>.
+      </div>
+    </footer>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
